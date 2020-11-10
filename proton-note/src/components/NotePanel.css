@@ -1,0 +1,60 @@
+.NotePanelOutline {
+    display: inline-block;
+    width: 40%;
+    height: 80vh;
+    border: 1px solid black;
+}
+
+.NoteTitle {
+    height: 10%;
+    border-bottom: 1px solid black;
+}
+
+.NoteContent {
+    height: 80%;
+}
+
+.NoteActions {
+    height: 10%;
+    border-top: 1px solid black;
+}
+
+.NoteContentArea {
+    width: 99%;
+    height: 99%;
+}
+
+.TitleContentArea {
+    width: 99%;
+    height: 99%;
+}
+
+.ActionButton {
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-top: 2%;
+    display: inline-block;
+}
+
+.EditButton {
+    float: right;
+    margin-right: 20px;
+}
+
+.CancelButton {
+    float: left;
+    margin-left: 20px;
+}
+
+.SaveButton {
+    float: right;
+    margin-right: 20px;
+}
+
+.DeleteButton {
+    float: right;
+    margin-right: 20px;
+}

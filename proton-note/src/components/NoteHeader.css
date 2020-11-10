@@ -1,0 +1,28 @@
+.HeaderOutline {
+    display: inline-block;
+    width: 80%;
+    height: 10vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.NewNoteButton {
+    width: 120px;
+    height: 70%;
+    background-color: darkblue;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    top: 15%;
+    left: 1%;
+}
+
+.NoPointerEvents {
+    pointer-events: none;
+}
